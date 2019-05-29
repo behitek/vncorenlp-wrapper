@@ -4,7 +4,7 @@ from py4j.java_gateway import JavaGateway
 
 
 def get_vncorenlp(jar_file, annotators):
-    gateway = JavaGateway.launch_gateway(classpath=jar_file)
+    gateway = JavaGateway.launch_gateway(classpath=jar_file, die_on_exit=True)
     vncorenlp = gateway.jvm.vn.Tokenizer(annotators)
     return vncorenlp
 
@@ -34,5 +34,5 @@ class VnCoreNLP:
 
 
 if __name__ == '__main__':
-    vncorenlp = VnCoreNLP(annotators="wseg")
+    vncorenlp = VnCoreNLP(annotators="wseg pos ner parse")
     print(vncorenlp.extract('học sinh học sinh học'))
