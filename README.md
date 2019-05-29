@@ -2,6 +2,10 @@
 
 VnCoreNLP: [https://github.com/vncorenlp/VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)
 
+## Usage
+
+> Copy `VnCoreNLP.jar`, `vncorenlp.py` and `models` to your project in the same directory
+
 ## Example
 See [example.py](example.py)
 ```python
