@@ -2,7 +2,8 @@
 
 VnCoreNLP: [https://github.com/vncorenlp/VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)
 
-## Usage
+## Setup
+> $ pip install py4j
 
 > Copy `VnCoreNLP.jar`, `vncorenlp.py` and `models` to your project in the same directory
 
