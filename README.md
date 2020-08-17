@@ -1,4 +1,5 @@
-# VnCoreNLP wrapper Python
+
+# VnCoreNLP đã có Python wrapper trên repo chính thức.
 
 VnCoreNLP: [https://github.com/vncorenlp/VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)
 
